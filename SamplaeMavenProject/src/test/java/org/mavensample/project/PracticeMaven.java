@@ -1,0 +1,24 @@
+package org.mavensample.project;
+
+import org.testng.annotations.Test;
+
+public class PracticeMaven 
+{
+@Test
+public void practiceMaven()
+{
+System.out.println("TC - 1");
+String userName=System.getProperty("user");
+System.out.println(userName);
+}
+@Test
+public void practiceMaven1()
+{
+System.out.println("TC - 2");	
+}
+@Test
+public void practiceMaven2()
+{
+System.out.println("TC - 2");	
+}
+}
