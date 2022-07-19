@@ -12,7 +12,8 @@ System.out.println("TC - 1");
 @Test
 public void practiceMaven1()
 {
-System.out.println("TC - 2");	
+System.out.println("TC - 2");
+System.out.println("TC passed");  
 }
 @Test
 public void practiceMaven2()
