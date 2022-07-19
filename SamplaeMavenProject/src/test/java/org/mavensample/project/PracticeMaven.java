@@ -8,8 +8,6 @@ public class PracticeMaven
 public void practiceMaven()
 {
 System.out.println("TC - 1");
-String userName=System.getProperty("user");
-System.out.println(userName);
 }
 @Test
 public void practiceMaven1()
