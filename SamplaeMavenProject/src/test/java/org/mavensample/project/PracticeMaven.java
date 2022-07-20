@@ -7,7 +7,7 @@ public class PracticeMaven
 @Test
 public void practiceMaven()
 {
-System.out.println("TC - 1");
+System.out.println("TC -");
 }
 @Test
 public void practiceMaven1()
@@ -19,6 +19,6 @@ System.out.println("TC - 2");
 public void practiceMaven2()
 {
 System.out.println("TC - 3");
-System.out.println("TC - 4");
+System.out.println("TC - 5");
 }
 }
