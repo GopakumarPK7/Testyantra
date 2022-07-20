@@ -13,7 +13,7 @@ System.out.println("TC -");
 public void practiceMaven1()
 {
 System.out.println("TC - 2");
-System.out.println("TC passed");  
+System.out.println("TC Failed");  
 }
 @Test
 public void practiceMaven2()
