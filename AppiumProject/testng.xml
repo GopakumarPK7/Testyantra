@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="2" parallel="tests">
+  <test  name="generalstore">
+  <parameter name="deviceID" value="C4ATAS000000"></parameter>
+   <parameter name="port" value="4723"></parameter>
+    <classes>
+      <class name=".ParallelTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test  name="generalstore">
+  <parameter name="deviceID" value=""></parameter>
+   <parameter name="port" value=""></parameter>
+    <classes>
+      <class name=".ParallelTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+

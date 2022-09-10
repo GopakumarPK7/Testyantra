@@ -1,0 +1,7 @@
+PlatformName Android
+platformVersion 9
+deviceId C4ATAS000000
+packageName com.google.android.gm
+appActivity .GmailActivity
+url http://localhost:4723/wd/hub
+timeout 10
